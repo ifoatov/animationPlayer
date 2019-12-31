@@ -1,15 +1,15 @@
 //
-//  AnimationsListCoordinator.swift
+//  FormViewCoordinator.swift
 //  animationPlayer
 //
-//  Created by Iskander Foatov on 27.11.2019.
-//  Copyright © 2019 Iskander Foatov. All rights reserved.
+//  Created by Iskander Foatov on 08.01.2020.
+//  Copyright © 2020 Iskander Foatov. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class AnimationsListCoordinator: BaseCoordinator {
+class FormViewCoordinator: BaseCoordinator {
 	var navigationController: UINavigationController?
 	
 	init(navigationController: UINavigationController) {
@@ -18,7 +18,7 @@ class AnimationsListCoordinator: BaseCoordinator {
 	}
 	
 	override func start() {
-		let viewController = AnimationsListViewController()
+		let viewController = FormViewController()
 		navigationController?.pushViewController(viewController, animated: false)
 	}
 }

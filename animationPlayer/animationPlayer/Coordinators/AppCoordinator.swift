@@ -20,14 +20,14 @@ class AppCoordinator: BaseCoordinator {
 	override func start() {
 		let navigationController = UINavigationController()
 		
-		let animationsListCoordinator = AnimationsListCoordinator(navigationController: navigationController)
-		animationsListCoordinator.start()
+		let coordinator = BezierPathTutorialCoordinator(navigationController: navigationController)
+		coordinator.start()
 		
 		window.rootViewController = navigationController
 		window.makeKeyAndVisible()
 		
-		animationsListCoordinator.isCompleted = { [weak self] in
-			self?.free(coordinator: animationsListCoordinator)
+		coordinator.isCompleted = { [weak self] in
+			self?.free(coordinator: coordinator)
 		}
 	}
 }

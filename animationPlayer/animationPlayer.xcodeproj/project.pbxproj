@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		F806DD4A238EF90B00399678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806DD49238EF90B00399678 /* AppDelegate.swift */; };
-		F806DD4E238EF90B00399678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806DD4D238EF90B00399678 /* ViewController.swift */; };
+		F806DD4E238EF90B00399678 /* AnimationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806DD4D238EF90B00399678 /* AnimationsListViewController.swift */; };
 		F806DD53238EF90C00399678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F806DD52238EF90C00399678 /* Assets.xcassets */; };
 		F806DD56238EF90C00399678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F806DD54238EF90C00399678 /* LaunchScreen.storyboard */; };
 		F806DD5F238EF97000399678 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806DD5E238EF97000399678 /* Coordinator.swift */; };
 		F806DD61238EFC9900399678 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806DD60238EFC9900399678 /* AppCoordinator.swift */; };
 		F806DD63238EFE0600399678 /* AnimationsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F806DD62238EFE0600399678 /* AnimationsListCoordinator.swift */; };
+		F83AAC3B23C1ED85009B06CC /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83AAC3A23C1ED85009B06CC /* TextFieldTableViewCell.swift */; };
+		F83AAC3D23C1F3B6009B06CC /* FormItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83AAC3C23C1F3B6009B06CC /* FormItem.swift */; };
+		F84681B523C63E1E00CDF8BD /* FormViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84681B423C63E1E00CDF8BD /* FormViewCoordinator.swift */; };
+		F84681B723C6422C00CDF8BD /* TableFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84681B623C6422C00CDF8BD /* TableFooterView.swift */; };
+		F8B36DAF239980680040CD03 /* AnimationsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B36DAE239980680040CD03 /* AnimationsListModel.swift */; };
+		F8D322F523BB4BA200539D16 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D322F423BB4BA200539D16 /* FormViewController.swift */; };
+		F8D322F723BB4BCE00539D16 /* FormDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D322F623BB4BCE00539D16 /* FormDataSource.swift */; };
+		F8FB37EF23EECEA500CD91A5 /* BezierPathTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB37EE23EECEA500CD91A5 /* BezierPathTutorialViewController.swift */; };
+		F8FB37F123EECEBF00CD91A5 /* BezierPathTutorilaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB37F023EECEBF00CD91A5 /* BezierPathTutorilaCoordinator.swift */; };
+		F8FB37F323EECF8A00CD91A5 /* BezierPathTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB37F223EECF8A00CD91A5 /* BezierPathTutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F806DD46238EF90B00399678 /* animationPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F806DD49238EF90B00399678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F806DD4D238EF90B00399678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F806DD4D238EF90B00399678 /* AnimationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListViewController.swift; sourceTree = "<group>"; };
 		F806DD52238EF90C00399678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F806DD55238EF90C00399678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F806DD57238EF90C00399678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F806DD5E238EF97000399678 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F806DD60238EFC9900399678 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F806DD62238EFE0600399678 /* AnimationsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListCoordinator.swift; sourceTree = "<group>"; };
+		F83AAC3A23C1ED85009B06CC /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		F83AAC3C23C1F3B6009B06CC /* FormItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormItem.swift; sourceTree = "<group>"; };
+		F84681B423C63E1E00CDF8BD /* FormViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewCoordinator.swift; sourceTree = "<group>"; };
+		F84681B623C6422C00CDF8BD /* TableFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableFooterView.swift; sourceTree = "<group>"; };
+		F8B36DAE239980680040CD03 /* AnimationsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListModel.swift; sourceTree = "<group>"; };
+		F8D322F423BB4BA200539D16 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		F8D322F623BB4BCE00539D16 /* FormDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDataSource.swift; sourceTree = "<group>"; };
+		F8FB37EE23EECEA500CD91A5 /* BezierPathTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathTutorialViewController.swift; sourceTree = "<group>"; };
+		F8FB37F023EECEBF00CD91A5 /* BezierPathTutorilaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathTutorilaCoordinator.swift; sourceTree = "<group>"; };
+		F8FB37F223EECF8A00CD91A5 /* BezierPathTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathTutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +101,43 @@
 		F806DD64238F021000399678 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F806DD4D238EF90B00399678 /* ViewController.swift */,
+				F8FB37ED23EECE6D00CD91A5 /* BezierPath */,
+				F8D322F323BB4B7200539D16 /* table */,
+				F8B36DAB23997EF90040CD03 /* AnimationsList */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		F8B36DAB23997EF90040CD03 /* AnimationsList */ = {
+			isa = PBXGroup;
+			children = (
+				F806DD4D238EF90B00399678 /* AnimationsListViewController.swift */,
+				F8B36DAE239980680040CD03 /* AnimationsListModel.swift */,
+			);
+			path = AnimationsList;
+			sourceTree = "<group>";
+		};
+		F8D322F323BB4B7200539D16 /* table */ = {
+			isa = PBXGroup;
+			children = (
+				F8D322F423BB4BA200539D16 /* FormViewController.swift */,
+				F8D322F623BB4BCE00539D16 /* FormDataSource.swift */,
+				F83AAC3A23C1ED85009B06CC /* TextFieldTableViewCell.swift */,
+				F83AAC3C23C1F3B6009B06CC /* FormItem.swift */,
+				F84681B423C63E1E00CDF8BD /* FormViewCoordinator.swift */,
+				F84681B623C6422C00CDF8BD /* TableFooterView.swift */,
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		F8FB37ED23EECE6D00CD91A5 /* BezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB37EE23EECEA500CD91A5 /* BezierPathTutorialViewController.swift */,
+				F8FB37F023EECEBF00CD91A5 /* BezierPathTutorilaCoordinator.swift */,
+				F8FB37F223EECF8A00CD91A5 /* BezierPathTutorialView.swift */,
+			);
+			path = BezierPath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,10 +210,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FB37EF23EECEA500CD91A5 /* BezierPathTutorialViewController.swift in Sources */,
+				F8FB37F323EECF8A00CD91A5 /* BezierPathTutorialView.swift in Sources */,
+				F83AAC3D23C1F3B6009B06CC /* FormItem.swift in Sources */,
+				F8B36DAF239980680040CD03 /* AnimationsListModel.swift in Sources */,
+				F8D322F523BB4BA200539D16 /* FormViewController.swift in Sources */,
 				F806DD5F238EF97000399678 /* Coordinator.swift in Sources */,
-				F806DD4E238EF90B00399678 /* ViewController.swift in Sources */,
+				F806DD4E238EF90B00399678 /* AnimationsListViewController.swift in Sources */,
+				F8FB37F123EECEBF00CD91A5 /* BezierPathTutorilaCoordinator.swift in Sources */,
 				F806DD61238EFC9900399678 /* AppCoordinator.swift in Sources */,
+				F84681B723C6422C00CDF8BD /* TableFooterView.swift in Sources */,
+				F84681B523C63E1E00CDF8BD /* FormViewCoordinator.swift in Sources */,
 				F806DD63238EFE0600399678 /* AnimationsListCoordinator.swift in Sources */,
+				F83AAC3B23C1ED85009B06CC /* TextFieldTableViewCell.swift in Sources */,
+				F8D322F723BB4BCE00539D16 /* FormDataSource.swift in Sources */,
 				F806DD4A238EF90B00399678 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
